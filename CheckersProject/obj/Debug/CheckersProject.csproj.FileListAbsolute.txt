@@ -1,0 +1,7 @@
+C:\לימודים\Projects\CheckersForms\CheckersProject\bin\Debug\CheckersProject.dll.config
+C:\לימודים\Projects\CheckersForms\CheckersProject\bin\Debug\CheckersProject.dll
+C:\לימודים\Projects\CheckersForms\CheckersProject\bin\Debug\CheckersProject.pdb
+C:\לימודים\Projects\CheckersForms\CheckersProject\obj\Debug\CheckersProject.csprojAssemblyReference.cache
+C:\לימודים\Projects\CheckersForms\CheckersProject\obj\Debug\CheckersProject.csproj.CoreCompileInputs.cache
+C:\לימודים\Projects\CheckersForms\CheckersProject\obj\Debug\CheckersProject.dll
+C:\לימודים\Projects\CheckersForms\CheckersProject\obj\Debug\CheckersProject.pdb

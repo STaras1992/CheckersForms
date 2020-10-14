@@ -1,0 +1,15 @@
+C:\לימודים\Projects\CheckersForms\DamkaForms\bin\Debug\DamkaForms.exe.config
+C:\לימודים\Projects\CheckersForms\DamkaForms\bin\Debug\DamkaForms.exe
+C:\לימודים\Projects\CheckersForms\DamkaForms\bin\Debug\DamkaForms.pdb
+C:\לימודים\Projects\CheckersForms\DamkaForms\bin\Debug\CheckersProject.dll
+C:\לימודים\Projects\CheckersForms\DamkaForms\bin\Debug\CheckersProject.pdb
+C:\לימודים\Projects\CheckersForms\DamkaForms\bin\Debug\CheckersProject.dll.config
+C:\לימודים\Projects\CheckersForms\DamkaForms\obj\Debug\DamkaForms.csprojAssemblyReference.cache
+C:\לימודים\Projects\CheckersForms\DamkaForms\obj\Debug\DamkaForms.GameForm.resources
+C:\לימודים\Projects\CheckersForms\DamkaForms\obj\Debug\DamkaForms.Properties.Resources.resources
+C:\לימודים\Projects\CheckersForms\DamkaForms\obj\Debug\DamkaForms.SettingsForm.resources
+C:\לימודים\Projects\CheckersForms\DamkaForms\obj\Debug\DamkaForms.csproj.GenerateResource.cache
+C:\לימודים\Projects\CheckersForms\DamkaForms\obj\Debug\DamkaForms.csproj.CoreCompileInputs.cache
+C:\לימודים\Projects\CheckersForms\DamkaForms\obj\Debug\DamkaForms.csproj.CopyComplete
+C:\לימודים\Projects\CheckersForms\DamkaForms\obj\Debug\DamkaForms.exe
+C:\לימודים\Projects\CheckersForms\DamkaForms\obj\Debug\DamkaForms.pdb
