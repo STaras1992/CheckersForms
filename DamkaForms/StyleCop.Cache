@@ -1,0 +1,1756 @@
+<stylecopresultscache>
+  <version>12</version>
+  <project key="-2045417891">
+    <configuration>DEBUG;TRACE</configuration>
+  </project>
+  <sourcecode name="Program.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2020/08/08 11:15:20.612</styleCop>
+      <settingsFile>2020/08/08 11:15:20.586</settingsFile>
+      <sourceFile>2020/10/03 15:37:19.673</sourceFile>
+      <parser>2020/08/08 11:15:20.612</parser>
+      <StyleCop.CSharp.DocumentationRules>2020/08/08 11:15:20.612</StyleCop.CSharp.DocumentationRules>
+      <StyleCop.CSharp.DocumentationRules.FilesHashCode>1365713411</StyleCop.CSharp.DocumentationRules.FilesHashCode>
+      <StyleCop.CSharp.LayoutRules>2020/08/08 11:15:20.612</StyleCop.CSharp.LayoutRules>
+      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
+      <StyleCop.CSharp.MaintainabilityRules>2020/08/08 11:15:20.612</StyleCop.CSharp.MaintainabilityRules>
+      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
+      <StyleCop.CSharp.NamingRules>2020/08/08 11:15:20.612</StyleCop.CSharp.NamingRules>
+      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
+      <StyleCop.CSharp.OrderingRules>2020/08/08 11:15:20.612</StyleCop.CSharp.OrderingRules>
+      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
+      <StyleCop.CSharp.ReadabilityRules>2020/08/08 11:15:20.612</StyleCop.CSharp.ReadabilityRules>
+      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
+      <StyleCop.CSharp.SpacingRules>2020/08/08 11:15:20.612</StyleCop.CSharp.SpacingRules>
+      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
+    </timestamps>
+    <violations>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="FileMustHaveHeader" ruleCheckId="SA1633">
+        <context>The file has no header, the header Xml is invalid, or the header is not located at the top of the file.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>2</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>3</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="SystemUsingDirectivesMustBePlacedBeforeOtherUsingDirectives" ruleCheckId="SA1208">
+        <context>System using directives must be placed before all other using directives.</context>
+        <line>3</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The class must have a documentation header.</context>
+        <line>7</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.NamingRules" rule="FieldNamesMustBeginWithLowerCaseLetter" ruleCheckId="SA1306">
+        <context>Variable names and private field names must start with a lower-case letter: m_SettingsForm.</context>
+        <line>17</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.NamingRules" rule="FieldNamesMustNotUseHungarianNotation" ruleCheckId="SA1305">
+        <context>The variable name 'dResult' begins with a prefix that looks like Hungarian notation. Remove the prefix or add it to the list of allowed prefixes.</context>
+        <line>18</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.NamingRules" rule="FieldNamesMustBeginWithLowerCaseLetter" ruleCheckId="SA1306">
+        <context>Variable names and private field names must start with a lower-case letter: m_DamkaController.</context>
+        <line>21</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+  <sourcecode name="AssemblyInfo.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2020/08/08 11:15:20.612</styleCop>
+      <settingsFile>2020/08/08 11:15:20.586</settingsFile>
+      <sourceFile>2020/09/16 19:29:30.000</sourceFile>
+      <parser>2020/08/08 11:15:20.612</parser>
+      <StyleCop.CSharp.DocumentationRules>2020/08/08 11:15:20.612</StyleCop.CSharp.DocumentationRules>
+      <StyleCop.CSharp.DocumentationRules.FilesHashCode>1365713411</StyleCop.CSharp.DocumentationRules.FilesHashCode>
+      <StyleCop.CSharp.LayoutRules>2020/08/08 11:15:20.612</StyleCop.CSharp.LayoutRules>
+      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
+      <StyleCop.CSharp.MaintainabilityRules>2020/08/08 11:15:20.612</StyleCop.CSharp.MaintainabilityRules>
+      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
+      <StyleCop.CSharp.NamingRules>2020/08/08 11:15:20.612</StyleCop.CSharp.NamingRules>
+      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
+      <StyleCop.CSharp.OrderingRules>2020/08/08 11:15:20.612</StyleCop.CSharp.OrderingRules>
+      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
+      <StyleCop.CSharp.ReadabilityRules>2020/08/08 11:15:20.612</StyleCop.CSharp.ReadabilityRules>
+      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
+      <StyleCop.CSharp.SpacingRules>2020/08/08 11:15:20.612</StyleCop.CSharp.SpacingRules>
+      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
+    </timestamps>
+    <violations>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="FileMustHaveHeader" ruleCheckId="SA1633">
+        <context>The file has no header, the header Xml is invalid, or the header is not located at the top of the file.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+  <sourcecode name="Resources.Designer.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2020/08/08 11:15:20.612</styleCop>
+      <settingsFile>2020/08/08 11:15:20.586</settingsFile>
+      <sourceFile>2020/09/16 19:29:30.000</sourceFile>
+      <parser>2020/08/08 11:15:20.612</parser>
+      <StyleCop.CSharp.DocumentationRules>2020/08/08 11:15:20.612</StyleCop.CSharp.DocumentationRules>
+      <StyleCop.CSharp.DocumentationRules.FilesHashCode>1365713411</StyleCop.CSharp.DocumentationRules.FilesHashCode>
+      <StyleCop.CSharp.LayoutRules>2020/08/08 11:15:20.612</StyleCop.CSharp.LayoutRules>
+      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
+      <StyleCop.CSharp.MaintainabilityRules>2020/08/08 11:15:20.612</StyleCop.CSharp.MaintainabilityRules>
+      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
+      <StyleCop.CSharp.NamingRules>2020/08/08 11:15:20.612</StyleCop.CSharp.NamingRules>
+      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
+      <StyleCop.CSharp.OrderingRules>2020/08/08 11:15:20.612</StyleCop.CSharp.OrderingRules>
+      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
+      <StyleCop.CSharp.ReadabilityRules>2020/08/08 11:15:20.612</StyleCop.CSharp.ReadabilityRules>
+      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
+      <StyleCop.CSharp.SpacingRules>2020/08/08 11:15:20.612</StyleCop.CSharp.SpacingRules>
+      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
+    </timestamps>
+    <violations />
+  </sourcecode>
+  <sourcecode name="GameForm.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2020/08/08 11:15:20.612</styleCop>
+      <settingsFile>2020/08/08 11:15:20.586</settingsFile>
+      <sourceFile>2020/10/03 15:34:15.734</sourceFile>
+      <parser>2020/08/08 11:15:20.612</parser>
+      <StyleCop.CSharp.DocumentationRules>2020/08/08 11:15:20.612</StyleCop.CSharp.DocumentationRules>
+      <StyleCop.CSharp.DocumentationRules.FilesHashCode>1365713411</StyleCop.CSharp.DocumentationRules.FilesHashCode>
+      <StyleCop.CSharp.LayoutRules>2020/08/08 11:15:20.612</StyleCop.CSharp.LayoutRules>
+      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
+      <StyleCop.CSharp.MaintainabilityRules>2020/08/08 11:15:20.612</StyleCop.CSharp.MaintainabilityRules>
+      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
+      <StyleCop.CSharp.NamingRules>2020/08/08 11:15:20.612</StyleCop.CSharp.NamingRules>
+      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
+      <StyleCop.CSharp.OrderingRules>2020/08/08 11:15:20.612</StyleCop.CSharp.OrderingRules>
+      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
+      <StyleCop.CSharp.ReadabilityRules>2020/08/08 11:15:20.612</StyleCop.CSharp.ReadabilityRules>
+      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
+      <StyleCop.CSharp.SpacingRules>2020/08/08 11:15:20.612</StyleCop.CSharp.SpacingRules>
+      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
+    </timestamps>
+    <violations>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="FileMustHaveHeader" ruleCheckId="SA1633">
+        <context>The file has no header, the header Xml is invalid, or the header is not located at the top of the file.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>2</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>3</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>4</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="PartialElementsMustBeDocumented" ruleCheckId="SA1601">
+        <context>The partial class element must have a documentation header containing either a summary tag or a content tag.</context>
+        <line>8</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The field must have a documentation header.</context>
+        <line>10</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.NamingRules" rule="VariableNamesMustNotBePrefixed" ruleCheckId="SA1308">
+        <context>Variable names must not start with 'm_' or 's_'.</context>
+        <line>10</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.NamingRules" rule="FieldNamesMustBeginWithLowerCaseLetter" ruleCheckId="SA1306">
+        <context>Variable names and private field names must start with a lower-case letter: m_Cells.</context>
+        <line>10</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The field must have a documentation header.</context>
+        <line>11</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.NamingRules" rule="VariableNamesMustNotBePrefixed" ruleCheckId="SA1308">
+        <context>Variable names must not start with 'm_' or 's_'.</context>
+        <line>11</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.NamingRules" rule="FieldNamesMustBeginWithLowerCaseLetter" ruleCheckId="SA1306">
+        <context>Variable names and private field names must start with a lower-case letter: m_GameController.</context>
+        <line>11</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The field must have a documentation header.</context>
+        <line>12</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.NamingRules" rule="VariableNamesMustNotBePrefixed" ruleCheckId="SA1308">
+        <context>Variable names must not start with 'm_' or 's_'.</context>
+        <line>12</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.NamingRules" rule="FieldNamesMustBeginWithLowerCaseLetter" ruleCheckId="SA1306">
+        <context>Variable names and private field names must start with a lower-case letter: m_IsWarriorSelected.</context>
+        <line>12</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The field must have a documentation header.</context>
+        <line>13</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.NamingRules" rule="VariableNamesMustNotBePrefixed" ruleCheckId="SA1308">
+        <context>Variable names must not start with 'm_' or 's_'.</context>
+        <line>13</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.NamingRules" rule="FieldNamesMustBeginWithLowerCaseLetter" ruleCheckId="SA1306">
+        <context>Variable names and private field names must start with a lower-case letter: m_IsNewWarriorSelectionAvailable.</context>
+        <line>13</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The field must have a documentation header.</context>
+        <line>14</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.NamingRules" rule="VariableNamesMustNotBePrefixed" ruleCheckId="SA1308">
+        <context>Variable names must not start with 'm_' or 's_'.</context>
+        <line>14</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.NamingRules" rule="FieldNamesMustBeginWithLowerCaseLetter" ruleCheckId="SA1306">
+        <context>Variable names and private field names must start with a lower-case letter: m_WarriorButton.</context>
+        <line>14</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The field must have a documentation header.</context>
+        <line>15</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.NamingRules" rule="VariableNamesMustNotBePrefixed" ruleCheckId="SA1308">
+        <context>Variable names must not start with 'm_' or 's_'.</context>
+        <line>15</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.NamingRules" rule="FieldNamesMustBeginWithLowerCaseLetter" ruleCheckId="SA1306">
+        <context>Variable names and private field names must start with a lower-case letter: m_ButtonSelected.</context>
+        <line>15</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The constructor must have a documentation header.</context>
+        <line>17</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.NamingRules" rule="FieldNamesMustNotUseHungarianNotation" ruleCheckId="SA1305">
+        <context>The variable name 'i_GameController' begins with a prefix that looks like Hungarian notation. Remove the prefix or add it to the list of allowed prefixes.</context>
+        <line>17</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to InitializeComponent must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>19</line>
+        <index>520</index>
+        <endIndex>538</endIndex>
+        <startLine>19</startLine>
+        <startColumn>13</startColumn>
+        <endLine>19</endLine>
+        <endColumn>31</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to m_GameController must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>20</line>
+        <index>556</index>
+        <endIndex>571</endIndex>
+        <startLine>20</startLine>
+        <startColumn>13</startColumn>
+        <endLine>20</endLine>
+        <endColumn>28</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to m_Cells must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>21</line>
+        <index>606</index>
+        <endIndex>612</endIndex>
+        <startLine>21</startLine>
+        <startColumn>13</startColumn>
+        <endLine>21</endLine>
+        <endColumn>19</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to m_GameController must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>21</line>
+        <index>627</index>
+        <endIndex>642</endIndex>
+        <startLine>21</startLine>
+        <startColumn>34</startColumn>
+        <endLine>21</endLine>
+        <endColumn>49</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to m_GameController must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>21</line>
+        <index>650</index>
+        <endIndex>665</endIndex>
+        <startLine>21</startLine>
+        <startColumn>57</startColumn>
+        <endLine>21</endLine>
+        <endColumn>72</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to m_IsWarriorSelected must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>22</line>
+        <index>687</index>
+        <endIndex>705</endIndex>
+        <startLine>22</startLine>
+        <startColumn>13</startColumn>
+        <endLine>22</endLine>
+        <endColumn>31</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to m_IsNewWarriorSelectionAvailable must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>23</line>
+        <index>729</index>
+        <endIndex>760</endIndex>
+        <startLine>23</startLine>
+        <startColumn>13</startColumn>
+        <endLine>23</endLine>
+        <endColumn>44</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to m_GameController must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>24</line>
+        <index>783</index>
+        <endIndex>798</endIndex>
+        <startLine>24</startLine>
+        <startColumn>13</startColumn>
+        <endLine>24</endLine>
+        <endColumn>28</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to updateDesk must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>24</line>
+        <index>843</index>
+        <endIndex>852</endIndex>
+        <startLine>24</startLine>
+        <startColumn>73</startColumn>
+        <endLine>24</endLine>
+        <endColumn>82</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to m_GameController must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>25</line>
+        <index>869</index>
+        <endIndex>884</endIndex>
+        <startLine>25</startLine>
+        <startColumn>13</startColumn>
+        <endLine>25</endLine>
+        <endColumn>28</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to showAlert must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>25</line>
+        <index>918</index>
+        <endIndex>926</endIndex>
+        <startLine>25</startLine>
+        <startColumn>62</startColumn>
+        <endLine>25</endLine>
+        <endColumn>70</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to m_GameController must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>26</line>
+        <index>943</index>
+        <endIndex>958</endIndex>
+        <startLine>26</startLine>
+        <startColumn>13</startColumn>
+        <endLine>26</endLine>
+        <endColumn>28</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to whenPlayerChanged must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>26</line>
+        <index>1002</index>
+        <endIndex>1018</endIndex>
+        <startLine>26</startLine>
+        <startColumn>72</startColumn>
+        <endLine>26</endLine>
+        <endColumn>88</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to m_GameController must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>27</line>
+        <index>1035</index>
+        <endIndex>1050</endIndex>
+        <startLine>27</startLine>
+        <startColumn>13</startColumn>
+        <endLine>27</endLine>
+        <endColumn>28</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to gameOver must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>27</line>
+        <index>1088</index>
+        <endIndex>1095</endIndex>
+        <startLine>27</startLine>
+        <startColumn>66</startColumn>
+        <endLine>27</endLine>
+        <endColumn>73</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to createDesk must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>28</line>
+        <index>1112</index>
+        <endIndex>1121</endIndex>
+        <startLine>28</startLine>
+        <startColumn>13</startColumn>
+        <endLine>28</endLine>
+        <endColumn>22</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to m_GameController must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>28</line>
+        <index>1123</index>
+        <endIndex>1138</endIndex>
+        <startLine>28</startLine>
+        <startColumn>24</startColumn>
+        <endLine>28</endLine>
+        <endColumn>39</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The method must have a documentation header.</context>
+        <line>31</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to m_GameController must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>35</line>
+        <index>1304</index>
+        <endIndex>1319</endIndex>
+        <startLine>35</startLine>
+        <startColumn>13</startColumn>
+        <endLine>35</endLine>
+        <endColumn>28</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The method must have a documentation header.</context>
+        <line>38</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.MaintainabilityRules" rule="ArithmeticExpressionsMustDeclarePrecedence" ruleCheckId="SA1407">
+        <context>Insert parentheses within the arithmetic expression to declare the operator precedence.</context>
+        <line>51</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.NamingRules" rule="ElementMustBeginWithUpperCaseLetter" ruleCheckId="SA1300">
+        <context>method names begin with an upper-case letter: createDesk.</context>
+        <line>38</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.NamingRules" rule="ConstFieldNamesMustBeginWithUpperCaseLetter" ruleCheckId="SA1303">
+        <context>Constants must start with an upper-case letter: buttonSize.</context>
+        <line>40</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.NamingRules" rule="FieldNamesMustNotUseHungarianNotation" ruleCheckId="SA1305">
+        <context>The variable name 'i_Size' begins with a prefix that looks like Hungarian notation. Remove the prefix or add it to the list of allowed prefixes.</context>
+        <line>38</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to Width must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>42</line>
+        <index>1461</index>
+        <endIndex>1465</endIndex>
+        <startLine>42</startLine>
+        <startColumn>13</startColumn>
+        <endLine>42</endLine>
+        <endColumn>17</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to Height must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>43</line>
+        <index>1509</index>
+        <endIndex>1514</endIndex>
+        <startLine>43</startLine>
+        <startColumn>13</startColumn>
+        <endLine>43</endLine>
+        <endColumn>18</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to OnButtonPress must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>63</line>
+        <index>2431</index>
+        <endIndex>2443</endIndex>
+        <startLine>63</startLine>
+        <startColumn>58</startColumn>
+        <endLine>63</endLine>
+        <endColumn>70</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to m_Cells must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>66</line>
+        <index>2493</index>
+        <endIndex>2499</endIndex>
+        <startLine>66</startLine>
+        <startColumn>21</startColumn>
+        <endLine>66</endLine>
+        <endColumn>27</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to labelPlayer1 must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>71</line>
+        <index>2609</index>
+        <endIndex>2620</endIndex>
+        <startLine>71</startLine>
+        <startColumn>13</startColumn>
+        <endLine>71</endLine>
+        <endColumn>24</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to labelPlayer1 must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>72</line>
+        <index>2650</index>
+        <endIndex>2661</endIndex>
+        <startLine>72</startLine>
+        <startColumn>13</startColumn>
+        <endLine>72</endLine>
+        <endColumn>24</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to labelPlayer1 must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>73</line>
+        <index>2730</index>
+        <endIndex>2741</endIndex>
+        <startLine>73</startLine>
+        <startColumn>13</startColumn>
+        <endLine>73</endLine>
+        <endColumn>24</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to m_GameController must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>73</line>
+        <index>2776</index>
+        <endIndex>2791</endIndex>
+        <startLine>73</startLine>
+        <startColumn>59</startColumn>
+        <endLine>73</endLine>
+        <endColumn>74</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to m_GameController must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>73</line>
+        <index>2806</index>
+        <endIndex>2821</endIndex>
+        <startLine>73</startLine>
+        <startColumn>89</startColumn>
+        <endLine>73</endLine>
+        <endColumn>104</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to labelPlayer1 must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>74</line>
+        <index>2852</index>
+        <endIndex>2863</endIndex>
+        <startLine>74</startLine>
+        <startColumn>13</startColumn>
+        <endLine>74</endLine>
+        <endColumn>24</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to labelPlayer1 must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>74</line>
+        <index>2881</index>
+        <endIndex>2892</endIndex>
+        <startLine>74</startLine>
+        <startColumn>42</startColumn>
+        <endLine>74</endLine>
+        <endColumn>53</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to labelPlayer1 must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>75</line>
+        <index>2948</index>
+        <endIndex>2959</endIndex>
+        <startLine>75</startLine>
+        <startColumn>13</startColumn>
+        <endLine>75</endLine>
+        <endColumn>24</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to labelPlayer1 must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>76</line>
+        <index>2997</index>
+        <endIndex>3008</endIndex>
+        <startLine>76</startLine>
+        <startColumn>13</startColumn>
+        <endLine>76</endLine>
+        <endColumn>24</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to labelPlayer1 must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>77</line>
+        <index>3040</index>
+        <endIndex>3051</endIndex>
+        <startLine>77</startLine>
+        <startColumn>13</startColumn>
+        <endLine>77</endLine>
+        <endColumn>24</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to labelPlayer1 must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>78</line>
+        <index>3109</index>
+        <endIndex>3120</endIndex>
+        <startLine>78</startLine>
+        <startColumn>26</startColumn>
+        <endLine>78</endLine>
+        <endColumn>37</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to labelPlayer2 must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>80</line>
+        <index>3139</index>
+        <endIndex>3150</endIndex>
+        <startLine>80</startLine>
+        <startColumn>13</startColumn>
+        <endLine>80</endLine>
+        <endColumn>24</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to labelPlayer2 must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>81</line>
+        <index>3180</index>
+        <endIndex>3191</endIndex>
+        <startLine>81</startLine>
+        <startColumn>13</startColumn>
+        <endLine>81</endLine>
+        <endColumn>24</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to labelPlayer2 must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>82</line>
+        <index>3271</index>
+        <endIndex>3282</endIndex>
+        <startLine>82</startLine>
+        <startColumn>13</startColumn>
+        <endLine>82</endLine>
+        <endColumn>24</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to m_GameController must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>82</line>
+        <index>3317</index>
+        <endIndex>3332</endIndex>
+        <startLine>82</startLine>
+        <startColumn>59</startColumn>
+        <endLine>82</endLine>
+        <endColumn>74</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to m_GameController must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>82</line>
+        <index>3347</index>
+        <endIndex>3362</endIndex>
+        <startLine>82</startLine>
+        <startColumn>89</startColumn>
+        <endLine>82</endLine>
+        <endColumn>104</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to labelPlayer2 must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>83</line>
+        <index>3393</index>
+        <endIndex>3404</endIndex>
+        <startLine>83</startLine>
+        <startColumn>13</startColumn>
+        <endLine>83</endLine>
+        <endColumn>24</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to labelPlayer2 must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>83</line>
+        <index>3422</index>
+        <endIndex>3433</endIndex>
+        <startLine>83</startLine>
+        <startColumn>42</startColumn>
+        <endLine>83</endLine>
+        <endColumn>53</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to labelPlayer2 must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>84</line>
+        <index>3489</index>
+        <endIndex>3500</endIndex>
+        <startLine>84</startLine>
+        <startColumn>13</startColumn>
+        <endLine>84</endLine>
+        <endColumn>24</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to labelPlayer2 must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>85</line>
+        <index>3538</index>
+        <endIndex>3549</endIndex>
+        <startLine>85</startLine>
+        <startColumn>13</startColumn>
+        <endLine>85</endLine>
+        <endColumn>24</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to labelPlayer2 must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>86</line>
+        <index>3581</index>
+        <endIndex>3592</endIndex>
+        <startLine>86</startLine>
+        <startColumn>13</startColumn>
+        <endLine>86</endLine>
+        <endColumn>24</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to labelPlayer2 must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>87</line>
+        <index>3650</index>
+        <endIndex>3661</endIndex>
+        <startLine>87</startLine>
+        <startColumn>26</startColumn>
+        <endLine>87</endLine>
+        <endColumn>37</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The method must have a documentation header.</context>
+        <line>90</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.NamingRules" rule="ElementMustBeginWithUpperCaseLetter" ruleCheckId="SA1300">
+        <context>method names begin with an upper-case letter: updateDesk.</context>
+        <line>90</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.NamingRules" rule="FieldNamesMustNotUseHungarianNotation" ruleCheckId="SA1305">
+        <context>The variable name 'i_Desk' begins with a prefix that looks like Hungarian notation. Remove the prefix or add it to the list of allowed prefixes.</context>
+        <line>90</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.NamingRules" rule="FieldNamesMustNotUseHungarianNotation" ruleCheckId="SA1305">
+        <context>The variable name 'i_Size' begins with a prefix that looks like Hungarian notation. Remove the prefix or add it to the list of allowed prefixes.</context>
+        <line>90</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to m_Cells must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>96</line>
+        <index>3905</index>
+        <endIndex>3911</endIndex>
+        <startLine>96</startLine>
+        <startColumn>21</startColumn>
+        <endLine>96</endLine>
+        <endColumn>27</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to m_Cells must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>99</line>
+        <index>4065</index>
+        <endIndex>4071</endIndex>
+        <startLine>99</startLine>
+        <startColumn>25</startColumn>
+        <endLine>99</endLine>
+        <endColumn>31</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to m_Cells must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>97</line>
+        <index>3985</index>
+        <endIndex>3991</endIndex>
+        <startLine>97</startLine>
+        <startColumn>26</startColumn>
+        <endLine>97</endLine>
+        <endColumn>32</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to m_WarriorButton must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>106</line>
+        <index>4231</index>
+        <endIndex>4245</endIndex>
+        <startLine>106</startLine>
+        <startColumn>17</startColumn>
+        <endLine>106</endLine>
+        <endColumn>31</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to m_ButtonSelected must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>107</line>
+        <index>4289</index>
+        <endIndex>4304</endIndex>
+        <startLine>107</startLine>
+        <startColumn>17</startColumn>
+        <endLine>107</endLine>
+        <endColumn>32</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to m_WarriorButton must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>108</line>
+        <index>4353</index>
+        <endIndex>4367</endIndex>
+        <startLine>108</startLine>
+        <startColumn>17</startColumn>
+        <endLine>108</endLine>
+        <endColumn>31</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to m_ButtonSelected must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>108</line>
+        <index>4371</index>
+        <endIndex>4386</endIndex>
+        <startLine>108</startLine>
+        <startColumn>35</startColumn>
+        <endLine>108</endLine>
+        <endColumn>50</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to m_ButtonSelected must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>109</line>
+        <index>4406</index>
+        <endIndex>4421</endIndex>
+        <startLine>109</startLine>
+        <startColumn>17</startColumn>
+        <endLine>109</endLine>
+        <endColumn>32</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to m_IsNewWarriorSelectionAvailable must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>110</line>
+        <index>4448</index>
+        <endIndex>4479</endIndex>
+        <startLine>110</startLine>
+        <startColumn>17</startColumn>
+        <endLine>110</endLine>
+        <endColumn>48</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to m_IsWarriorSelected must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>104</line>
+        <index>4178</index>
+        <endIndex>4196</endIndex>
+        <startLine>104</startLine>
+        <startColumn>17</startColumn>
+        <endLine>104</endLine>
+        <endColumn>35</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The method must have a documentation header.</context>
+        <line>116</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.LayoutRules" rule="SingleLineCommentMustBePrecededByBlankLine" ruleCheckId="SA1515">
+        <context>A single-line comment must be preceded by a blank line or another single-line comment, or must be the first item in its scope. To ignore this error when commenting out a line of code, begin the comment with '////' rather than '//'.</context>
+        <line>144</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="BlockStatementsMustNotContainEmbeddedComments" ruleCheckId="SA1108">
+        <context>A comment may not be placed within the bracketed statement.</context>
+        <line>121</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="BlockStatementsMustNotContainEmbeddedComments" ruleCheckId="SA1108">
+        <context>A comment may not be placed within the bracketed statement.</context>
+        <line>134</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to m_WarriorButton must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>124</line>
+        <index>4888</index>
+        <endIndex>4902</endIndex>
+        <startLine>124</startLine>
+        <startColumn>21</startColumn>
+        <endLine>124</endLine>
+        <endColumn>35</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to m_IsWarriorSelected must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>125</line>
+        <index>4935</index>
+        <endIndex>4953</endIndex>
+        <startLine>125</startLine>
+        <startColumn>21</startColumn>
+        <endLine>125</endLine>
+        <endColumn>39</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to m_IsWarriorSelected must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>119</line>
+        <index>4689</index>
+        <endIndex>4707</endIndex>
+        <startLine>119</startLine>
+        <startColumn>18</startColumn>
+        <endLine>119</endLine>
+        <endColumn>36</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to m_WarriorButton must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>137</line>
+        <index>5364</index>
+        <endIndex>5378</endIndex>
+        <startLine>137</startLine>
+        <startColumn>21</startColumn>
+        <endLine>137</endLine>
+        <endColumn>35</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to m_IsWarriorSelected must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>138</line>
+        <index>5409</index>
+        <endIndex>5427</endIndex>
+        <startLine>138</startLine>
+        <startColumn>21</startColumn>
+        <endLine>138</endLine>
+        <endColumn>39</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to m_IsNewWarriorSelectionAvailable must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>139</line>
+        <index>5459</index>
+        <endIndex>5490</endIndex>
+        <startLine>139</startLine>
+        <startColumn>21</startColumn>
+        <endLine>139</endLine>
+        <endColumn>52</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to m_WarriorButton must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>134</line>
+        <index>5198</index>
+        <endIndex>5212</endIndex>
+        <startLine>134</startLine>
+        <startColumn>31</startColumn>
+        <endLine>134</endLine>
+        <endColumn>45</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to m_IsNewWarriorSelectionAvailable must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>134</line>
+        <index>5217</index>
+        <endIndex>5248</endIndex>
+        <startLine>134</startLine>
+        <startColumn>50</startColumn>
+        <endLine>134</endLine>
+        <endColumn>81</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to m_ButtonSelected must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>143</line>
+        <index>5610</index>
+        <endIndex>5625</endIndex>
+        <startLine>143</startLine>
+        <startColumn>21</startColumn>
+        <endLine>143</endLine>
+        <endColumn>36</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to m_WarriorButton must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>147</line>
+        <index>5887</index>
+        <endIndex>5901</endIndex>
+        <startLine>147</startLine>
+        <startColumn>25</startColumn>
+        <endLine>147</endLine>
+        <endColumn>39</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to m_WarriorButton must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>148</line>
+        <index>5953</index>
+        <endIndex>5967</endIndex>
+        <startLine>148</startLine>
+        <startColumn>25</startColumn>
+        <endLine>148</endLine>
+        <endColumn>39</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to m_ButtonSelected must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>149</line>
+        <index>6002</index>
+        <endIndex>6017</endIndex>
+        <startLine>149</startLine>
+        <startColumn>25</startColumn>
+        <endLine>149</endLine>
+        <endColumn>40</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to m_IsWarriorSelected must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>150</line>
+        <index>6052</index>
+        <endIndex>6070</endIndex>
+        <startLine>150</startLine>
+        <startColumn>25</startColumn>
+        <endLine>150</endLine>
+        <endColumn>43</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to m_IsNewWarriorSelectionAvailable must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>151</line>
+        <index>6106</index>
+        <endIndex>6137</endIndex>
+        <startLine>151</startLine>
+        <startColumn>25</startColumn>
+        <endLine>151</endLine>
+        <endColumn>56</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to m_GameController must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>152</line>
+        <index>6172</index>
+        <endIndex>6187</endIndex>
+        <startLine>152</startLine>
+        <startColumn>25</startColumn>
+        <endLine>152</endLine>
+        <endColumn>40</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to m_GameController must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>153</line>
+        <index>6226</index>
+        <endIndex>6241</endIndex>
+        <startLine>153</startLine>
+        <startColumn>25</startColumn>
+        <endLine>153</endLine>
+        <endColumn>40</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to m_GameController must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>145</line>
+        <index>5718</index>
+        <endIndex>5733</endIndex>
+        <startLine>145</startLine>
+        <startColumn>25</startColumn>
+        <endLine>145</endLine>
+        <endColumn>40</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to m_WarriorButton must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>145</line>
+        <index>5770</index>
+        <endIndex>5784</endIndex>
+        <startLine>145</startLine>
+        <startColumn>77</startColumn>
+        <endLine>145</endLine>
+        <endColumn>91</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to m_ButtonSelected must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>158</line>
+        <index>6404</index>
+        <endIndex>6419</endIndex>
+        <startLine>158</startLine>
+        <startColumn>21</startColumn>
+        <endLine>158</endLine>
+        <endColumn>36</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to m_IsNewWarriorSelectionAvailable must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>156</line>
+        <index>6330</index>
+        <endIndex>6361</endIndex>
+        <startLine>156</startLine>
+        <startColumn>26</startColumn>
+        <endLine>156</endLine>
+        <endColumn>57</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to m_ButtonSelected must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>163</line>
+        <index>6580</index>
+        <endIndex>6595</endIndex>
+        <startLine>163</startLine>
+        <startColumn>21</startColumn>
+        <endLine>163</endLine>
+        <endColumn>36</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The method must have a documentation header.</context>
+        <line>169</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.NamingRules" rule="ElementMustBeginWithUpperCaseLetter" ruleCheckId="SA1300">
+        <context>method names begin with an upper-case letter: disableOpponentCells.</context>
+        <line>169</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.NamingRules" rule="FieldNamesMustNotUseHungarianNotation" ruleCheckId="SA1305">
+        <context>The variable name 'i_Opponnet' begins with a prefix that looks like Hungarian notation. Remove the prefix or add it to the list of allowed prefixes.</context>
+        <line>169</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to m_Cells must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>173</line>
+        <index>6906</index>
+        <endIndex>6912</endIndex>
+        <startLine>173</startLine>
+        <startColumn>41</startColumn>
+        <endLine>173</endLine>
+        <endColumn>47</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to m_GameController must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>171</line>
+        <index>6804</index>
+        <endIndex>6819</endIndex>
+        <startLine>171</startLine>
+        <startColumn>17</startColumn>
+        <endLine>171</endLine>
+        <endColumn>32</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to m_Cells must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>187</line>
+        <index>7454</index>
+        <endIndex>7460</endIndex>
+        <startLine>187</startLine>
+        <startColumn>41</startColumn>
+        <endLine>187</endLine>
+        <endColumn>47</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The method must have a documentation header.</context>
+        <line>201</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.NamingRules" rule="ElementMustBeginWithUpperCaseLetter" ruleCheckId="SA1300">
+        <context>method names begin with an upper-case letter: showAlert.</context>
+        <line>201</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.NamingRules" rule="FieldNamesMustNotUseHungarianNotation" ruleCheckId="SA1305">
+        <context>The variable name 'i_Message' begins with a prefix that looks like Hungarian notation. Remove the prefix or add it to the list of allowed prefixes.</context>
+        <line>201</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The method must have a documentation header.</context>
+        <line>206</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.NamingRules" rule="ElementMustBeginWithUpperCaseLetter" ruleCheckId="SA1300">
+        <context>method names begin with an upper-case letter: whenPlayerChanged.</context>
+        <line>206</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.NamingRules" rule="FieldNamesMustNotUseHungarianNotation" ruleCheckId="SA1305">
+        <context>The variable name 'i_Player' begins with a prefix that looks like Hungarian notation. Remove the prefix or add it to the list of allowed prefixes.</context>
+        <line>206</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to disableOpponentCells must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>208</line>
+        <index>8155</index>
+        <endIndex>8174</endIndex>
+        <startLine>208</startLine>
+        <startColumn>13</startColumn>
+        <endLine>208</endLine>
+        <endColumn>32</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The method must have a documentation header.</context>
+        <line>211</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.NamingRules" rule="ElementMustBeginWithUpperCaseLetter" ruleCheckId="SA1300">
+        <context>method names begin with an upper-case letter: gameOver.</context>
+        <line>211</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.NamingRules" rule="FieldNamesMustNotUseHungarianNotation" ruleCheckId="SA1305">
+        <context>The variable name 'i_GameStatus' begins with a prefix that looks like Hungarian notation. Remove the prefix or add it to the list of allowed prefixes.</context>
+        <line>211</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to m_GameController must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>221</line>
+        <index>8737</index>
+        <endIndex>8752</endIndex>
+        <startLine>221</startLine>
+        <startColumn>95</startColumn>
+        <endLine>221</endLine>
+        <endColumn>110</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to m_GameController must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>224</line>
+        <index>8993</index>
+        <endIndex>9008</endIndex>
+        <startLine>224</startLine>
+        <startColumn>94</startColumn>
+        <endLine>224</endLine>
+        <endColumn>109</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to labelPlayer1 must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>230</line>
+        <index>9208</index>
+        <endIndex>9219</endIndex>
+        <startLine>230</startLine>
+        <startColumn>17</startColumn>
+        <endLine>230</endLine>
+        <endColumn>28</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to m_GameController must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>230</line>
+        <index>9254</index>
+        <endIndex>9269</endIndex>
+        <startLine>230</startLine>
+        <startColumn>63</startColumn>
+        <endLine>230</endLine>
+        <endColumn>78</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to m_GameController must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>230</line>
+        <index>9284</index>
+        <endIndex>9299</endIndex>
+        <startLine>230</startLine>
+        <startColumn>93</startColumn>
+        <endLine>230</endLine>
+        <endColumn>108</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to labelPlayer2 must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>231</line>
+        <index>9334</index>
+        <endIndex>9345</endIndex>
+        <startLine>231</startLine>
+        <startColumn>17</startColumn>
+        <endLine>231</endLine>
+        <endColumn>28</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to m_GameController must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>231</line>
+        <index>9380</index>
+        <endIndex>9395</endIndex>
+        <startLine>231</startLine>
+        <startColumn>63</startColumn>
+        <endLine>231</endLine>
+        <endColumn>78</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to m_GameController must begin with the 'this.', 'base.', 'object.' or 'GameForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>231</line>
+        <index>9410</index>
+        <endIndex>9425</endIndex>
+        <startLine>231</startLine>
+        <startColumn>93</startColumn>
+        <endLine>231</endLine>
+        <endColumn>108</endColumn>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+  <sourcecode name="GameForm.Designer.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2020/08/08 11:15:20.612</styleCop>
+      <settingsFile>2020/08/08 11:15:20.586</settingsFile>
+      <sourceFile>2020/10/03 15:37:19.682</sourceFile>
+      <parser>2020/08/08 11:15:20.612</parser>
+      <StyleCop.CSharp.DocumentationRules>2020/08/08 11:15:20.612</StyleCop.CSharp.DocumentationRules>
+      <StyleCop.CSharp.DocumentationRules.FilesHashCode>1365713411</StyleCop.CSharp.DocumentationRules.FilesHashCode>
+      <StyleCop.CSharp.LayoutRules>2020/08/08 11:15:20.612</StyleCop.CSharp.LayoutRules>
+      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
+      <StyleCop.CSharp.MaintainabilityRules>2020/08/08 11:15:20.612</StyleCop.CSharp.MaintainabilityRules>
+      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
+      <StyleCop.CSharp.NamingRules>2020/08/08 11:15:20.612</StyleCop.CSharp.NamingRules>
+      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
+      <StyleCop.CSharp.OrderingRules>2020/08/08 11:15:20.612</StyleCop.CSharp.OrderingRules>
+      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
+      <StyleCop.CSharp.ReadabilityRules>2020/08/08 11:15:20.612</StyleCop.CSharp.ReadabilityRules>
+      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
+      <StyleCop.CSharp.SpacingRules>2020/08/08 11:15:20.612</StyleCop.CSharp.SpacingRules>
+      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
+    </timestamps>
+    <violations>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="FileMustHaveHeader" ruleCheckId="SA1633">
+        <context>The file has no header, the header Xml is invalid, or the header is not located at the top of the file.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="PartialElementsMustBeDocumented" ruleCheckId="SA1601">
+        <context>The partial class element must have a documentation header containing either a summary tag or a content tag.</context>
+        <line>5</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="ElementsMustAppearInTheCorrectOrder" ruleCheckId="SA1201">
+        <context>All methods must be placed after all fields.</context>
+        <line>69</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="ElementsMustAppearInTheCorrectOrder" ruleCheckId="SA1201">
+        <context>All methods must be placed after all fields.</context>
+        <line>70</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to components must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>20</line>
+        <index>612</index>
+        <endIndex>621</endIndex>
+        <startLine>20</startLine>
+        <startColumn>17</startColumn>
+        <endLine>20</endLine>
+        <endColumn>26</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to components must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>18</line>
+        <index>559</index>
+        <endIndex>568</endIndex>
+        <startLine>18</startLine>
+        <startColumn>31</startColumn>
+        <endLine>18</endLine>
+        <endColumn>40</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The field must have a documentation header.</context>
+        <line>69</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The field must have a documentation header.</context>
+        <line>70</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+  <sourcecode name="Settings.Designer.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2020/08/08 11:15:20.612</styleCop>
+      <settingsFile>2020/08/08 11:15:20.586</settingsFile>
+      <sourceFile>2020/09/16 19:29:30.000</sourceFile>
+      <parser>2020/08/08 11:15:20.612</parser>
+      <StyleCop.CSharp.DocumentationRules>2020/08/08 11:15:20.612</StyleCop.CSharp.DocumentationRules>
+      <StyleCop.CSharp.DocumentationRules.FilesHashCode>1365713411</StyleCop.CSharp.DocumentationRules.FilesHashCode>
+      <StyleCop.CSharp.LayoutRules>2020/08/08 11:15:20.612</StyleCop.CSharp.LayoutRules>
+      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
+      <StyleCop.CSharp.MaintainabilityRules>2020/08/08 11:15:20.612</StyleCop.CSharp.MaintainabilityRules>
+      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
+      <StyleCop.CSharp.NamingRules>2020/08/08 11:15:20.612</StyleCop.CSharp.NamingRules>
+      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
+      <StyleCop.CSharp.OrderingRules>2020/08/08 11:15:20.612</StyleCop.CSharp.OrderingRules>
+      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
+      <StyleCop.CSharp.ReadabilityRules>2020/08/08 11:15:20.612</StyleCop.CSharp.ReadabilityRules>
+      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
+      <StyleCop.CSharp.SpacingRules>2020/08/08 11:15:20.612</StyleCop.CSharp.SpacingRules>
+      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
+    </timestamps>
+    <violations />
+  </sourcecode>
+  <sourcecode name="SettingsForm.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2020/08/08 11:15:20.612</styleCop>
+      <settingsFile>2020/08/08 11:15:20.586</settingsFile>
+      <sourceFile>2020/10/03 15:40:26.305</sourceFile>
+      <parser>2020/08/08 11:15:20.612</parser>
+      <StyleCop.CSharp.DocumentationRules>2020/08/08 11:15:20.612</StyleCop.CSharp.DocumentationRules>
+      <StyleCop.CSharp.DocumentationRules.FilesHashCode>1365713411</StyleCop.CSharp.DocumentationRules.FilesHashCode>
+      <StyleCop.CSharp.LayoutRules>2020/08/08 11:15:20.612</StyleCop.CSharp.LayoutRules>
+      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
+      <StyleCop.CSharp.MaintainabilityRules>2020/08/08 11:15:20.612</StyleCop.CSharp.MaintainabilityRules>
+      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
+      <StyleCop.CSharp.NamingRules>2020/08/08 11:15:20.612</StyleCop.CSharp.NamingRules>
+      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
+      <StyleCop.CSharp.OrderingRules>2020/08/08 11:15:20.612</StyleCop.CSharp.OrderingRules>
+      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
+      <StyleCop.CSharp.ReadabilityRules>2020/08/08 11:15:20.612</StyleCop.CSharp.ReadabilityRules>
+      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
+      <StyleCop.CSharp.SpacingRules>2020/08/08 11:15:20.612</StyleCop.CSharp.SpacingRules>
+      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
+    </timestamps>
+    <violations>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="FileMustHaveHeader" ruleCheckId="SA1633">
+        <context>The file has no header, the header Xml is invalid, or the header is not located at the top of the file.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.OrderingRules" rule="UsingDirectivesMustBePlacedWithinNamespace" ruleCheckId="SA1200">
+        <context>All using directives must be placed inside of the namespace.</context>
+        <line>2</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="PartialElementsMustBeDocumented" ruleCheckId="SA1601">
+        <context>The partial class element must have a documentation header containing either a summary tag or a content tag.</context>
+        <line>6</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The constructor must have a documentation header.</context>
+        <line>8</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to InitializeComponent must begin with the 'this.', 'base.', 'object.' or 'SettingsForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>10</line>
+        <index>187</index>
+        <endIndex>205</endIndex>
+        <startLine>10</startLine>
+        <startColumn>13</startColumn>
+        <endLine>10</endLine>
+        <endColumn>31</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The property must have a documentation header.</context>
+        <line>13</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to groupBoxSize must begin with the 'this.', 'base.', 'object.' or 'SettingsForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>19</line>
+        <index>375</index>
+        <endIndex>386</endIndex>
+        <startLine>19</startLine>
+        <startColumn>47</startColumn>
+        <endLine>19</endLine>
+        <endColumn>58</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The property must have a documentation header.</context>
+        <line>32</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to textBoxPlayer1 must begin with the 'this.', 'base.', 'object.' or 'SettingsForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>34</line>
+        <index>772</index>
+        <endIndex>785</endIndex>
+        <startLine>34</startLine>
+        <startColumn>26</startColumn>
+        <endLine>34</endLine>
+        <endColumn>39</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The property must have a documentation header.</context>
+        <line>37</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to textBoxPlayer2 must begin with the 'this.', 'base.', 'object.' or 'SettingsForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>39</line>
+        <index>880</index>
+        <endIndex>893</endIndex>
+        <startLine>39</startLine>
+        <startColumn>26</startColumn>
+        <endLine>39</endLine>
+        <endColumn>39</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The property must have a documentation header.</context>
+        <line>42</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to checkBoxTwoPlayers must begin with the 'this.', 'base.', 'object.' or 'SettingsForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>44</line>
+        <index>987</index>
+        <endIndex>1004</endIndex>
+        <startLine>44</startLine>
+        <startColumn>26</startColumn>
+        <endLine>44</endLine>
+        <endColumn>43</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The method must have a documentation header.</context>
+        <line>47</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.NamingRules" rule="ElementMustBeginWithUpperCaseLetter" ruleCheckId="SA1300">
+        <context>method names begin with an upper-case letter: checkBoxTwoPlayersCheckedChanged.</context>
+        <line>47</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to textBoxPlayer2 must begin with the 'this.', 'base.', 'object.' or 'SettingsForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>53</line>
+        <index>1253</index>
+        <endIndex>1266</endIndex>
+        <startLine>53</startLine>
+        <startColumn>17</startColumn>
+        <endLine>53</endLine>
+        <endColumn>30</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to textBoxPlayer2 must begin with the 'this.', 'base.', 'object.' or 'SettingsForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>54</line>
+        <index>1301</index>
+        <endIndex>1314</endIndex>
+        <startLine>54</startLine>
+        <startColumn>17</startColumn>
+        <endLine>54</endLine>
+        <endColumn>30</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to textBoxPlayer2 must begin with the 'this.', 'base.', 'object.' or 'SettingsForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>58</line>
+        <index>1402</index>
+        <endIndex>1415</endIndex>
+        <startLine>58</startLine>
+        <startColumn>17</startColumn>
+        <endLine>58</endLine>
+        <endColumn>30</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to textBoxPlayer2 must begin with the 'this.', 'base.', 'object.' or 'SettingsForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>59</line>
+        <index>1451</index>
+        <endIndex>1464</endIndex>
+        <startLine>59</startLine>
+        <startColumn>17</startColumn>
+        <endLine>59</endLine>
+        <endColumn>30</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The method must have a documentation header.</context>
+        <line>63</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to textBoxPlayer1 must begin with the 'this.', 'base.', 'object.' or 'SettingsForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>65</line>
+        <index>1615</index>
+        <endIndex>1628</endIndex>
+        <startLine>65</startLine>
+        <startColumn>17</startColumn>
+        <endLine>65</endLine>
+        <endColumn>30</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixCallsCorrectly" ruleCheckId="SA1126">
+        <context>The call to textBoxPlayer2 must begin with the 'this.', 'base.', 'object.' or 'SettingsForm.' or 'Form.' prefix to indicate the intended method call. </context>
+        <line>65</line>
+        <index>1654</index>
+        <endIndex>1667</endIndex>
+        <startLine>65</startLine>
+        <startColumn>56</startColumn>
+        <endLine>65</endLine>
+        <endColumn>69</endColumn>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+  <sourcecode name="SettingsForm.Designer.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2020/08/08 11:15:20.612</styleCop>
+      <settingsFile>2020/08/08 11:15:20.586</settingsFile>
+      <sourceFile>2020/10/03 15:39:46.538</sourceFile>
+      <parser>2020/08/08 11:15:20.612</parser>
+      <StyleCop.CSharp.DocumentationRules>2020/08/08 11:15:20.612</StyleCop.CSharp.DocumentationRules>
+      <StyleCop.CSharp.DocumentationRules.FilesHashCode>1365713411</StyleCop.CSharp.DocumentationRules.FilesHashCode>
+      <StyleCop.CSharp.LayoutRules>2020/08/08 11:15:20.612</StyleCop.CSharp.LayoutRules>
+      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
+      <StyleCop.CSharp.MaintainabilityRules>2020/08/08 11:15:20.612</StyleCop.CSharp.MaintainabilityRules>
+      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
+      <StyleCop.CSharp.NamingRules>2020/08/08 11:15:20.612</StyleCop.CSharp.NamingRules>
+      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
+      <StyleCop.CSharp.OrderingRules>2020/08/08 11:15:20.612</StyleCop.CSharp.OrderingRules>
+      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
+      <StyleCop.CSharp.ReadabilityRules>2020/08/08 11:15:20.612</StyleCop.CSharp.ReadabilityRules>
+      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
+      <StyleCop.CSharp.SpacingRules>2020/08/08 11:15:20.612</StyleCop.CSharp.SpacingRules>
+      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
+    </timestamps>
+    <violations>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="FileMustHaveHeader" ruleCheckId="SA1633">
+        <context>The file has no header, the header Xml is invalid, or the header is not located at the top of the file.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="PartialElementsMustBeDocumented" ruleCheckId="SA1601">
+        <context>The partial class element must have a documentation header containing either a summary tag or a content tag.</context>
+        <line>3</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The field must have a documentation header.</context>
+        <line>192</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The field must have a documentation header.</context>
+        <line>193</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The field must have a documentation header.</context>
+        <line>194</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The field must have a documentation header.</context>
+        <line>195</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The field must have a documentation header.</context>
+        <line>196</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The field must have a documentation header.</context>
+        <line>197</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The field must have a documentation header.</context>
+        <line>198</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The field must have a documentation header.</context>
+        <line>199</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
+        <context>The field must have a documentation header.</context>
+        <line>200</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+</stylecopresultscache>
