@@ -5,4 +5,4 @@
 Developed on C# WinForms.<br>
 
 ![github-small](screenshots/settings.png)
-![github-small](screenshots/game1.png)
+![github-logo](screenshots/game1.png)
