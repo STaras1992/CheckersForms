@@ -1,8 +1,8 @@
 # CheckersForms
 
 <h2>Checkers<h2>
-################################
-Developed on C# WinForms. 
+################################<br>
+Developed on C# WinForms.<br>
 
-![github-small](images/settings.png)
-![github-small](images/game1.png)
+![github-small](screenshots/settings.png)
+![github-small](screenshots/game1.png)
